@@ -4,6 +4,7 @@ module.exports = function(grunt) {
       prod: {
         options: {
           file: 'test/server.js',
+          cwd: 'test/',
           args: ['production'],
           ignoredFiles: ['README.md', 'node_modules/**'],
           watchedExtensions: ['js', 'coffee'],

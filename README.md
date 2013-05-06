@@ -98,6 +98,11 @@ Type: `Number`
 
 Delay the restart of nodemon by a number of seconds when compiling a large amount of files so that the app doesn't needlessly restart after each file.
 
+### cwd
+Type: `string`
+
+Change the current working directory to run your node server from that folder's location. This is useful when your node server file is not in the same folder as your Gruntfile.
+
 ### exec
 Type: `string`
 
